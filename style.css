@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.lightblue{
+    background-color: lightseagreen;
+}
+.social-bar{
+    text-align: right;
+    width: 100%;
+    height: 3%;
+}
+.container-fluid .row .col-3 h1,p{
+
+    font-family: 'Mochiy Pop P One', Cambria;
+}
+
+.wid{
+    width: 800px;   
+    height: 15em;
+}
+.bcolor{
+    background-color: wheat;
+}
+.border-2{
+    border: 3px solid orangered;
+    border-radius: 20px;
+    box-shadow: 1px -5px 10px black;
+}
+
+.ofo{
+    color: black;
+    transition:transform 4s;
+}
+
+.ofo:hover{
+    transform: scale(1.2);
+}
+
+.h{
+    height: 20em;
+}
+
+
+.rr{
+    width: 28vmin;
+}
+
+.po{
+    cursor: pointer;
+}
+
+.pot{
+    cursor: pointer;
+    transition: transform 1.9s;
+}
+
+.pot:hover{
+    transform:scale(1.1);
+}
+
+.dop{
+    transition: transform 1.2s;
+}
+
+.dop:hover{
+    transform:rotate(2deg);
+}
+
+.border-bt{
+    border-bottom: 1px outset purple;
+    border-left: 1px outset blue;
+    border-top: 1px outset limegreen;
+    border-right: 1px outset red;
+}
+
+.black{
+    background-color: black;
+}
+
+.white{
+    color: whitesmoke;
+}
+
+input[type="email"]{
+    border: 0;
+    border-radius: 3px;
+    margin-left: 20px;
+    transform: scale(1.2);
+}
